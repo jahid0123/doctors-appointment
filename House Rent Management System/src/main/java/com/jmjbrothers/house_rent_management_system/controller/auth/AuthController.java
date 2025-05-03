@@ -1,5 +1,6 @@
 package com.jmjbrothers.house_rent_management_system.controller.auth;
 
+import com.jmjbrothers.house_rent_management_system.config.JwtTokenProvider;
 import com.jmjbrothers.house_rent_management_system.dto.LoginRequest;
 import com.jmjbrothers.house_rent_management_system.service.UserService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -22,6 +23,7 @@ public class AuthController {
 
     private final AuthenticationManager authenticationManager;
     private final UserService userService;
+    private final JwtTokenProvider jwtTokenProvider;
 
 
     @PostMapping("/login")
@@ -30,7 +32,11 @@ public class AuthController {
                                                    @Valid @RequestBody LoginRequest loginRequest){
 
         Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(loginRequest.)
+                new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()));
+
+        if (authentication.isAuthenticated()){
+            return jwtTokenProvider.createToken(au);
+        }
         return ResponseEntity
     }
 

@@ -61,7 +61,7 @@ public class JwtTokenProvider {
 
 
     public Claims getClaimsFromToken(String token){
-        return Jwts.parserBuilder().setSigningKey(secretKey).build().parseClaimsJws().getBody();
+        return Jwts.parserBuilder().setSigningKey(secretKey).build().parseClaimsJws(token).getBody();
     }
 
 }
