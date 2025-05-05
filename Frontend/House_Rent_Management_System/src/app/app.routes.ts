@@ -4,5 +4,6 @@ import { AdminPanelComponent } from './pages/admin/admin-panel/admin-panel.compo
 export const routes: Routes = [
 
     {path: 'api/auth/admin', component: AdminPanelComponent},
+    {path: '**', redirectTo: "api/auth/admin"}
     
 ];
