@@ -1,5 +1,6 @@
 import { NgClass, NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../../../core/auth.service';
 
 @Component({
   selector: 'app-admin-panel',
@@ -35,12 +36,17 @@ export class AdminPanelComponent implements OnInit {
   // Sidebar state
   sidebarCollapsed = false;
 
-  constructor() { }
+  constructor(private auth: AuthService) { }
 
   ngOnInit(): void {
   }
 
   toggleSidebar(): void {
     this.sidebarCollapsed = !this.sidebarCollapsed;
+  }
+
+  logout() {
+    this.auth.logout();
+    
   }
 }

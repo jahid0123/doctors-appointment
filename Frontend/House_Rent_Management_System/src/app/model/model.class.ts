@@ -1,21 +1,13 @@
 export class LoginDTO{
-
-    private email: string;
-    private password: string;
-
     constructor(email: string, password: string){
-        this.email = email;
-        this.password = password;
-    }
-
-    
+    }  
 }
 
 export class RegisterDTO{
 
-    private  email: string;
-    private  password: string;
-    private  name: string;
+    public  email: string;
+    public  password: string;
+    public  name: string;
 
     constructor(email: string, password: string, name: string){
         this.email = email;
@@ -26,13 +18,13 @@ export class RegisterDTO{
 }
 
 export class User{
-    private name: string;
-    private email: string;
-    private password: string;
-    private role: string;
-    private phone: string;
-    private creditBalance: number;
-    private createAt: Date;
+    public name: string;
+    public email: string;
+    public password: string;
+    public role: string;
+    public phone: string;
+    public creditBalance: number;
+    public createAt: Date;
 
     constructor(name: string, email: string, password: string, role: string, phone: string, creditBalance: number, createAt: Date){
         this.name = name;
