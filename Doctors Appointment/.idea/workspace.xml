@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7a2c43b-d26b-4d79-a750-71b3ab9b865c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/DoctorsAppointmentSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/common/PortalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/config/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/config/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/config/UserInfoDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/constants/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/constants/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/controller/DoctorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/controller/PrescriptionReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/controller/auth/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/AppointmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/AppointmentResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/DoctorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/DoctorListDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/DoctorRegisterRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/DoctorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/PatientRegisterRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/PrescriptionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/PrescriptionResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/UpdateAppointmentStatusRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/dto/UserRegisterRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/Appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/Medicine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/Prescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/repository/AppointmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/repository/DoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/repository/PrescriptionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/AppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/DoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/JasperReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/PrescriptionReportGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/PrescriptionReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/PrescriptionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmjbrothers/doctorsappointmentsystem/service/auth/UserInfoDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/FinalPrescriptionReport.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/prescriptions.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jmjbrothers/doctorsappointmentsystem/DoctorsAppointmentSystemApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/public/doctor-explain-coronavirus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/public/health1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/public/health2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/public/health3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/admin/signup/signup.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/admin/signup/signup.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/admin/signup/signup.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/admin/signup/signup.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/guard/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/guard/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/interceptor/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/register/register.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/service/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/auth/service/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/add-doctor.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/add-doctor.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/add-doctor.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/add-doctor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/service/add-doctoer.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/add-doctor/service/add-doctoer.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-dashboard/admin-dashboard.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-dashboard/admin-dashboard.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-dashboard/admin-dashboard.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-dashboard/admin-dashboard.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-home/admin-home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-home/admin-home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-home/admin-home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/admin-home/admin-home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-appointments/manage-appointments.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-appointments/manage-appointments.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-appointments/manage-appointments.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-appointments/manage-appointments.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/manage-users.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/manage-users.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/manage-users.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/manage-users.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/service/manage-users.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/admin/manage-users/service/manage-users.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/doctor-appointment.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/doctor-appointment.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/doctor-appointment.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/doctor-appointment.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/service/doctor-appointment.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-appointment/service/doctor-appointment.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-dashboard/doctor-dashboard.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-dashboard/doctor-dashboard.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-dashboard/doctor-dashboard.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-dashboard/doctor-dashboard.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-home/doctor-home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-home/doctor-home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-home/doctor-home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-home/doctor-home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-profile/doctor-profile.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-profile/doctor-profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-profile/doctor-profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-profile/doctor-profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-settings/doctor-settings.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-settings/doctor-settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-settings/doctor-settings.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/doctor-settings/doctor-settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/prescription.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/prescription.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/prescription.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/prescription.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/service/prescription.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/doctor/prescription/service/prescription.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/my-appointment.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/my-appointment.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/my-appointment.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/my-appointment.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/service/my-appointment.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/my-appointment/service/my-appointment.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/patient-appointment.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/patient-appointment.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/patient-appointment.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/patient-appointment.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/service/patient-appointment.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-appointment/service/patient-appointment.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-dashboard/patient-dashboard.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-dashboard/patient-dashboard.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-dashboard/patient-dashboard.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-dashboard/patient-dashboard.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-favorite/patient-favorite.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-favorite/patient-favorite.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-favorite/patient-favorite.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-favorite/patient-favorite.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/patient-home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/patient-home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/patient-home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/patient-home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/service/patient-home.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-home/service/patient-home.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-profile/patient-profile.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-profile/patient-profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-profile/patient-profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-profile/patient-profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-settings/patient-settings.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-settings/patient-settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-settings/patient-settings.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/patient-settings/patient-settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/view-prescription/view-prescription.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/view-prescription/view-prescription.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/view-prescription/view-prescription.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/dashboard/patient/view-prescription/view-prescription.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/app/model/model.classes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doctors-appointment/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jahid0123&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jahid0123/doctors-appointment.git",
+    "accountId": "881ff83a-d143-41ed-a4d5-565213cfc164"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xsCT95uTKdoQQjsCUVrYEfgziK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.DoctorsAppointmentSystemApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Git/doctors-appointment/Doctors Appointment",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.data.views",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DoctorsAppointmentSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="doctors-appointment-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jmjbrothers.doctorsappointmentsystem.DoctorsAppointmentSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7a2c43b-d26b-4d79-a750-71b3ab9b865c" name="Changes" comment="" />
+      <created>1748717400789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748717400789</updated>
+      <workItem from="1748717401905" duration="2838000" />
+      <workItem from="1748784571605" duration="1736000" />
+      <workItem from="1748791351125" duration="9552000" />
+      <workItem from="1748831831130" duration="16760000" />
+      <workItem from="1748942836919" duration="17931000" />
+      <workItem from="1749055532249" duration="120000" />
+      <workItem from="1749055793856" duration="12000" />
+      <workItem from="1749095631140" duration="5122000" />
+      <workItem from="1749151602853" duration="3168000" />
+      <workItem from="1749706326417" duration="527000" />
+      <workItem from="1750975759897" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
