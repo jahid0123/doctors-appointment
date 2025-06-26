@@ -1,12 +1,14 @@
-A three-role web platform where:
+Project Description
+The Doctors Appointment System is a full-stack medical platform that helps streamline doctor-patient interactions. It allows:
 
-=> Patients search doctors, book appointments, view prescriptions & print prescriptions, view their previous history.
-=> Doctors see confirm status patients which is take appointment for him, write digital prescriptions, view and print prescription.
-=> Admins oversee users, Add doctors, See pending appointment and confirm & reject for doctor.
+Patients to book appointments with doctors, view prescriptions, and access their medical history.
+Doctors to manage their schedules, show their appointments, and create electronic prescriptions.
+Admins to manage the entire system, including users, statistics, confirm and reject appointment as doctors schedules.
 
-Tech stack & key versions
-Backend:	Java 21 • Spring Boot 3	Reactive Web isn’t needed; standard Spring MVC is fine.
-Security: Spring Security 6 + JWT	Stateless, role-based.
-Data: Spring Data JPA • Oracle 19c	Flyway.
-Frontend:	Angular 19 • Bootstrap 5.
-Reporting: JasperReports 6.21, PDF prescriptions.
+This system is build for course learning purpose, making it ideal for a Spring Boot + Angular full-stack project.
+
+Key Objectives
+Secure and scalable appointment system
+Role-based access for Admin, Doctor, and Patient
+Digital prescription with medicines
+Optional: JasperReports PDF generation for prescription 
