@@ -1,5 +1,5 @@
 
-# 🩺 Doctor Appointment – Full Stack Web Application
+# 🩺 Doctors Appointment – Full Stack Web Application
 
 The **Doctors Appointment** is a full-stack web application designed for managing doctor appointments, prescriptions, user roles (admin, doctor, patient), and more. Built for educational purposes, it demonstrates a complete end-to-end solution with authentication, role management, and CRUD operations.
 
