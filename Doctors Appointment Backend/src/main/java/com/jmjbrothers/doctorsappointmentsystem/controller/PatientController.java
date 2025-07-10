@@ -5,9 +5,11 @@ import com.jmjbrothers.doctorsappointmentsystem.dto.AppointmentResponseDto;
 import com.jmjbrothers.doctorsappointmentsystem.dto.DoctorListDto;
 import com.jmjbrothers.doctorsappointmentsystem.dto.PrescriptionResponseDto;
 import com.jmjbrothers.doctorsappointmentsystem.model.Appointment;
+import com.jmjbrothers.doctorsappointmentsystem.model.Patient;
 import com.jmjbrothers.doctorsappointmentsystem.model.Prescription;
 import com.jmjbrothers.doctorsappointmentsystem.service.AppointmentService;
 import com.jmjbrothers.doctorsappointmentsystem.service.DoctorService;
+import com.jmjbrothers.doctorsappointmentsystem.service.PatientService;
 import com.jmjbrothers.doctorsappointmentsystem.service.PrescriptionService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,11 +24,13 @@ public class PatientController {
     private final DoctorService doctorService;
     private final PrescriptionService prescriptionService;
     private final AppointmentService appointmentService;
+    private final PatientService patientService;
 
-    public PatientController(DoctorService doctorService, PrescriptionService prescriptionService, AppointmentService appointmentService) {
+    public PatientController(DoctorService doctorService, PrescriptionService prescriptionService, AppointmentService appointmentService, PatientService patientService) {
         this.doctorService = doctorService;
         this.prescriptionService = prescriptionService;
         this.appointmentService = appointmentService;
+        this.patientService = patientService;
     }
 
     //Get All Doctors By the Patient.
@@ -62,4 +66,12 @@ public class PatientController {
         List<AppointmentResponseDto> prescriptions = appointmentService.getAllAppointmentByPatientId(id);
         return new ResponseEntity<>(prescriptions, HttpStatus.OK);
     }
+
+    //Get All appointment By the Patient.
+    @GetMapping("/me")
+    public ResponseEntity<?> myProfileInfo(@RequestParam("id") Long id) {
+        Patient patient = patientService.myProfileInfo(id);
+        return new ResponseEntity<>(patient, HttpStatus.OK);
+    }
+
 }

@@ -50,4 +50,12 @@ public class PatientService {
     public List<Patient> getAllPatients() {
         return patientRepository.findAll();
     }
+
+
+    public Patient myProfileInfo(Long id) {
+        Patient patient = patientRepository.findById(id).orElseThrow(
+                () -> new RuntimeException("Patient not found")
+        );
+        return patient;
+    }
 }
